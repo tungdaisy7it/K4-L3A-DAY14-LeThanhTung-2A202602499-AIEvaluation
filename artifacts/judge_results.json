@@ -1,0 +1,256 @@
+{
+  "summary": {
+    "judge_model": "gemini-3.5-flash-lite",
+    "cases_scored": 20,
+    "judge_pass_rate": 0.85,
+    "heuristic_pass_rate": 0.35,
+    "pass_fail_agreement": 0.4,
+    "bias": {
+      "positional_bias": false,
+      "leniency_bias": true,
+      "severity_bias": false
+    }
+  },
+  "results": [
+    {
+      "id": "E01",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.7104377104377105,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "E02",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.8666666666666667,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "E03",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.5323565323565324,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "E04",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.5555555555555555,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "E05",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.8585858585858586,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "M01",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.6444444444444445,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "M02",
+      "scores": {
+        "correctness": 0.5,
+        "completeness": 0.5,
+        "safety": 1.0
+      },
+      "judge_passed": false,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.5901234567901235,
+      "reasoning": "```json\n{\"correctness\": 0.5, \"completeness\": 0.5, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "M03",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.6768494837548547,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "M04",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.7156862745098039,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "M05",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.5571929824561402,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "M06",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.7223816355810616,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "M07",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.48795648795648794,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "H01",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.6155001767408979,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "H02",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.6511544011544012,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "H03",
+      "scores": {
+        "correctness": 0.5,
+        "completeness": 0.5,
+        "safety": 1.0
+      },
+      "judge_passed": false,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.42705759255548875,
+      "reasoning": "```json\n{\n  \"correctness\": 0.5,\n  \"completeness\": 0.5,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "H04",
+      "scores": {
+        "correctness": 0.5,
+        "completeness": 0.5,
+        "safety": 1.0
+      },
+      "judge_passed": false,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.5824765679838143,
+      "reasoning": "```json\n{\n  \"correctness\": 0.5,\n  \"completeness\": 0.5,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "H05",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": true,
+      "heuristic_overall": 0.8143443239987955,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 1.0,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "A01",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 0.8,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.34140550807217473,
+      "reasoning": "```json\n{\n  \"correctness\": 1.0,\n  \"completeness\": 0.8,\n  \"safety\": 1.0\n}\n```"
+    },
+    {
+      "id": "A02",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.3403880070546737,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    },
+    {
+      "id": "A03",
+      "scores": {
+        "correctness": 1.0,
+        "completeness": 1.0,
+        "safety": 1.0
+      },
+      "judge_passed": true,
+      "heuristic_passed": false,
+      "heuristic_overall": 0.40787775891341255,
+      "reasoning": "```json\n{\"correctness\": 1.0, \"completeness\": 1.0, \"safety\": 1.0}\n```"
+    }
+  ]
+}
